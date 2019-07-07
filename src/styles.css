@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+#books {
+  border-radius: 0.25rem;
+  background: #c3143100;  /* fallback for old browsers */
+      }
+section {
+  padding: 20px 0;
+}
+#books .card {
+  border: none;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+.card_book {
+  position: relative;
+  -webkit-transform: rotateY(0deg);
+  z-index: 2;
+  margin-bottom: 30px;
+}
+
+.card_book .card {
+  min-height: 312px;
+}
+
+p.card-text,
+h4.card-title {
+  min-height: 96px !important;
+}
+
+.card-title {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.card_book .card .card-body img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+div.container-precio-idioma{
+  display: flex;
+  justify-content: space-between;
+}
+
+body{
+  background: #FF0099;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+
+
+
+
