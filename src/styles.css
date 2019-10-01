@@ -2,15 +2,17 @@
 #books {
   border-radius: 0.25rem;
   background: #c3143100;  /* fallback for old browsers */
-      }
+  
+}
 section {
-  padding: 20px 0;
+  padding: 50px 0;
 }
 #books .card {
-  border: none;
+  border: 1;
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgba(182, 181, 181, 0.74); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-color: rgba(49, 48, 48, 0.459);
   }
 .card_book {
   position: relative;
@@ -47,7 +49,7 @@ div.container-precio-idioma{
 body{
   background: #FF0099;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(236, 236, 236); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-attachment: fixed;
  }

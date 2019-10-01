@@ -3,7 +3,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">
-          {{ !this.dataApi.selectedBook.id ? 'Nuevo libro' : 'Agregar nuevo libro'}}
+          {{ !this.dataApi.selectedBook.id ? 'Nuevo libro' : 'Agregar nuevo Producto'}}
         </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -27,7 +27,7 @@
             </div>
             <div class="form-group col-md-6">
               <label for="precio">Precio</label>
-              <input type="text" name="precio" class="form-control" placeholder="0,00€" [(ngModel)]="this.dataApi.selectedBook.precio">
+              <input type="text" name="precio" class="form-control" placeholder="$0.00" [(ngModel)]="this.dataApi.selectedBook.precio">
             </div>
           </div>
           <div class="form-row">
@@ -59,7 +59,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" #btnClose data-dismiss="modal">Cerrar</button>
-            <button type="submit" class="btn btn-primary">Guardar libro</button>
+            <button type="submit" class="btn btn-primary">Guardar Producto</button>
           </div>
         </form>
       </div>
